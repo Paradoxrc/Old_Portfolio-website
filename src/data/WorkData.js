@@ -65,7 +65,7 @@ export const Work = [
         tags:["react","styled components","css"],
         
         demo:"http://react-responsive-navbar-codebucks27.vercel.app/",
-        github:"https://github.com/codebucks27/React-responsive-navbar"
+        github:"https://github.com/Paradoxrc/My_portfolio"
         
     },
     
