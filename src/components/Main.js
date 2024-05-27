@@ -70,7 +70,7 @@ const glow = keyframes`
 
 const Center = styled.button`
   position: absolute;
-  top: ${props => props.click ? '85%' : '50%'};
+  top: ${props => props.click ? '81%' : '50%'};
   left: ${props => props.click ? '92%' : '50%'};
   @media (max-width: 768px) {
     left: ${props => props.click ? '50%' : '50%'};

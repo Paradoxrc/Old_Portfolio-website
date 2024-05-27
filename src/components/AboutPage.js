@@ -38,7 +38,7 @@ const Box = styled.div`
   @media (max-width: 768px) {
     padding-left: 20px;
     padding-top: 70px; 
-    padding-bottom: 70px;/* Added padding to avoid overlap with the logo */
+    padding-bottom: 97px;/* Added padding to avoid overlap with the logo */
   }
 `;
 

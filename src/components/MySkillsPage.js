@@ -19,21 +19,25 @@ const Box = styled.div`
   background-image: url(${bgImage});
   background-size: cover;
   background-position: center;
-  width: 100vw;
+  width: 110vw;
   padding-top:6rem;
-  min-height: 100vh;
+  min-height: 110vh;
   position: relative;
   display: flex;
   justify-content: space-evenly;
   align-items: center;
   flex-wrap: wrap;
   
+  
 
   @media (max-width: 768px) {
+    
+    
     flex-direction: column;
     padding: 1rem;
     padding-top: 6rem;
     padding-bottom:5rem;
+    
   }
 `;
 

@@ -3,11 +3,14 @@ import React from "react";
 // import { NavLink } from 'react-router-dom'
 import styled from "styled-components";
 
+
+
 const Box = styled(motion.a)`
   width: calc(11rem + 15vw);
   text-decoration: none;
   height: 22rem;
   padding: 1rem;
+  
   color: ${(props) => props.theme.text};
   border: 2px solid ${(props) => props.theme.text};
   backdrop-filter: blur(2px);
@@ -59,7 +62,9 @@ const Date = styled.span`
   padding: 0.5rem 0;
 `;
 
-const Container = styled(motion.div)``;
+const Container = styled(motion.div)`
+padding-bottom:1.5rem;
+`;
 
 // Framer motion configuration
 const Item = {

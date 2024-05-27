@@ -20,7 +20,8 @@ const Icons = styled.div`
   @media (max-width: 768px) {
     position: absolute;
     flex-direction: row;
-    bottom: -2rem;
+    
+    bottom: 0rem;
     left: 50%;
     transform: translateX(-50%);
     & > *:not(:last-child) {

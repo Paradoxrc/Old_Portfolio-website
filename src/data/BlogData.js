@@ -54,7 +54,7 @@ export const Blogs = [
     {
         id:7,
         name:"Black, White & Gray",
-        tags:["ShowerThoughts","Psycology","Philosophy"],
+        tags:["ShowerThoughts","Psycology"],
         date:"11 March, 2024",
         imgSrc:"https://dinith0.files.wordpress.com/2024/03/cosmological-principle-goes-brrrr-v0-s00r9cfax5v81.webp?w=1024",
         link:"https://dinith0.wordpress.com/2024/03/11/black-white-gray/"

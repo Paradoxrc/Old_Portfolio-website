@@ -18,6 +18,7 @@ import ParticleComponent from '../subComponents/ParticleComponent';
 
 const Box = styled.div`
   background-color: ${(props) => props.theme.body};
+  background-size: cover;
   height: 400vh;
   position: relative;
   display: flex;
