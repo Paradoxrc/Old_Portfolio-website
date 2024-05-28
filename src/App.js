@@ -3,7 +3,7 @@ import { ThemeProvider } from "styled-components";
 import { lightTheme } from "./components/Themes";
 import { AnimatePresence } from "framer-motion";
 import GlobalStyle from "./globalStyles";
-import { useState } from "react";
+
 
 //Components
 import Main from "./components/Main";
@@ -15,7 +15,7 @@ import MySkillsPage from "./components/MySkillsPage";
 
 function App() {
   const location = useLocation();
-  const [click, setClick] = useState(false); // Added state for click
+  // Added state for click
 
   return (
     <>

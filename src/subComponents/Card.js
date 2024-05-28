@@ -1,6 +1,6 @@
 import { motion } from 'framer-motion';
 import React from 'react';
-import { NavLink } from 'react-router-dom';
+
 import styled from 'styled-components';
 import { Github } from '../components/AllSvgs';
 
@@ -116,7 +116,7 @@ const Item = {
 };
 
 const Card = (props) => {
-  const { id, name, image, description, tags, demo, github, sliderImages } = props.data;
+  const { id, name, image, description, tags, demo, github } = props.data;
 
   return (
     <Box key={id} variants={Item}>

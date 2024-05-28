@@ -7,7 +7,7 @@ import SocialIcons from '../subComponents/SocialIcons';
 import { YinYang } from './AllSvgs';
 import Intro from './Intro';
 import Navbar from "./Navbar";
-import CV from './John-Cv.pdf';
+
 import bg from '../assets/Images/bg.png';
 
 const MainContainer = styled.div`
