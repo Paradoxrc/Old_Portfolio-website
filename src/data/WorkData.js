@@ -64,7 +64,7 @@ export const Work = [
         description:"This website itself :) ",
         tags:["react","styled components","css"],
         
-        demo:"http://react-responsive-navbar-codebucks27.vercel.app/",
+        demo:"https://paradoxrc.github.io/My_portfolio/",
         github:"https://github.com/Paradoxrc/My_portfolio"
         
     },
