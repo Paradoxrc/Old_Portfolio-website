@@ -181,8 +181,8 @@ const MySkillsPage = () => {
           <Separator />
           <Description>
             <ul>
-              <ListItem>Teaching and Communication skills (Worked as a physics tutor for A/L students for almost 4 years)</ListItem>
-              <ListItem>Logical and analytical skills</ListItem>
+              <li><ListItem>Teaching and Communication skills (Worked as a physics tutor for A/L students for almost 4 years)</ListItem></li>
+              <li> <ListItem>Logical and analytical skills</ListItem></li>
             </ul>
           </Description>
         </Main>
