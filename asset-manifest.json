@@ -1,27 +1,27 @@
 {
   "files": {
-    "main.css": "/My_portfolio/static/css/main.58462fbc.css",
-    "main.js": "/My_portfolio/static/js/main.26f25de9.js",
-    "static/media/rcsa2.png": "/My_portfolio/static/media/rcsa2.4f221d84e0f4f39ac26c.png",
-    "static/media/ecom.png": "/My_portfolio/static/media/ecom.f7b3b0be47fc94cc552f.png",
-    "static/media/portfolio.png": "/My_portfolio/static/media/portfolio.5c0486df828d0095a236.png",
-    "static/media/nobg.png": "/My_portfolio/static/media/nobg.4b1dcce497a3ad95c566.png",
-    "static/media/3a.jpg": "/My_portfolio/static/media/3a.5ae2c2c9b1388763863a.jpg",
-    "static/media/bg.png": "/My_portfolio/static/media/bg.790abfbb2467b7e5f8af.png",
-    "static/media/aaadd.png": "/My_portfolio/static/media/aaadd.4ff0b2601d643e9e9ab8.png",
-    "static/media/boxing.jpg": "/My_portfolio/static/media/boxing.c157d3971eb9149c123a.jpg",
-    "static/media/violin.jpg": "/My_portfolio/static/media/violin.89e2dfecee4aa5efc1df.jpg",
-    "static/media/scholar.jpg": "/My_portfolio/static/media/scholar.1e5f6a9d2e8ebe6cf5cb.jpg",
-    "static/media/moratuwa_logo.png": "/My_portfolio/static/media/moratuwa_logo.ea7c576a6f45ec02be8e.png",
-    "static/media/boxing3.jpg": "/My_portfolio/static/media/boxing3.1c97682640e3add4b711.jpg",
-    "static/media/prize.jpg": "/My_portfolio/static/media/prize.91dacd55b4bf230da982.jpg",
-    "static/media/honeycomb.png": "/My_portfolio/static/media/honeycomb.e2c4b8cfa39f41549a8b.png",
-    "index.html": "/My_portfolio/index.html",
-    "main.58462fbc.css.map": "/My_portfolio/static/css/main.58462fbc.css.map",
-    "main.26f25de9.js.map": "/My_portfolio/static/js/main.26f25de9.js.map"
+    "main.css": "/dinith/static/css/main.58462fbc.css",
+    "main.js": "/dinith/static/js/main.d7e6fdb9.js",
+    "static/media/rcsa2.png": "/dinith/static/media/rcsa2.4f221d84e0f4f39ac26c.png",
+    "static/media/ecom.png": "/dinith/static/media/ecom.f7b3b0be47fc94cc552f.png",
+    "static/media/portfolio.png": "/dinith/static/media/portfolio.5c0486df828d0095a236.png",
+    "static/media/nobg.png": "/dinith/static/media/nobg.4b1dcce497a3ad95c566.png",
+    "static/media/3a.jpg": "/dinith/static/media/3a.5ae2c2c9b1388763863a.jpg",
+    "static/media/bg.png": "/dinith/static/media/bg.790abfbb2467b7e5f8af.png",
+    "static/media/aaadd.png": "/dinith/static/media/aaadd.4ff0b2601d643e9e9ab8.png",
+    "static/media/boxing.jpg": "/dinith/static/media/boxing.c157d3971eb9149c123a.jpg",
+    "static/media/violin.jpg": "/dinith/static/media/violin.89e2dfecee4aa5efc1df.jpg",
+    "static/media/scholar.jpg": "/dinith/static/media/scholar.1e5f6a9d2e8ebe6cf5cb.jpg",
+    "static/media/moratuwa_logo.png": "/dinith/static/media/moratuwa_logo.ea7c576a6f45ec02be8e.png",
+    "static/media/boxing3.jpg": "/dinith/static/media/boxing3.1c97682640e3add4b711.jpg",
+    "static/media/prize.jpg": "/dinith/static/media/prize.91dacd55b4bf230da982.jpg",
+    "static/media/honeycomb.png": "/dinith/static/media/honeycomb.e2c4b8cfa39f41549a8b.png",
+    "index.html": "/dinith/index.html",
+    "main.58462fbc.css.map": "/dinith/static/css/main.58462fbc.css.map",
+    "main.d7e6fdb9.js.map": "/dinith/static/js/main.d7e6fdb9.js.map"
   },
   "entrypoints": [
     "static/css/main.58462fbc.css",
-    "static/js/main.26f25de9.js"
+    "static/js/main.d7e6fdb9.js"
   ]
 }
