@@ -18,26 +18,37 @@ import bgImage from '../assets/Images/bg.png';
 const Box = styled.div`
   background-image: url(${bgImage});
   background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
   background-position: center;
-  width: 110vw;
-  padding-top:6rem;
-  min-height: 110vh;
+  width: 100vw;
+  min-height: 100vh;
   position: relative;
   display: flex;
-  justify-content: space-evenly;
+  flex-direction: column;
   align-items: center;
-  flex-wrap: wrap;
-  
-  
+  overflow: hidden;
+  padding-top: 5rem;
+  margin: 0;
+
 
   @media (max-width: 768px) {
-    
-    
+    padding-bottom:6rem;
+  }
+`;
+
+const ContentWrapper = styled.div`
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  width: 70%;
+  padding: 3rem;
+
+  @media (max-width: 768px) {
+    padding-top:5rem;
+    width: 100%;
     flex-direction: column;
-    padding: 1rem;
-    padding-top: 6rem;
-    padding-bottom:5rem;
-    
+    align-items: center;
   }
 `;
 
@@ -51,27 +62,26 @@ const Separator = styled.hr`
 const Main = styled(motion.div)`
   border: 2px solid ${props => props.theme.text};
   color: ${props => props.theme.text};
-  background-color: transparent;
+  background-color: rgba(255, 255, 255, 0.1);
   padding: 2rem;
   width: 30vw;
-  min-height: 60vh;
   z-index: 3;
   line-height: 1.5;
   cursor: pointer;
   font-family: 'Ubuntu Mono', monospace;
   display: flex;
   flex-direction: column;
-  
-  margin: 1rem 0;
-  transition: background-color 0.3s;
+  margin: 1rem;
+  transition: background-color 0.3s, transform 0.3s;
+  flex-grow: 1;
 
   &:hover {
-    background-color: rgba(255, 255, 255, 0.3); /* Adjust transparency on hover */
+    background-color: rgba(255, 255, 255, 0.3);
+    transform: translateY(-10px);
   }
 
   @media (max-width: 768px) {
     width: 70vw;
-    margin: 1rem 0;
   }
 `;
 
@@ -125,60 +135,59 @@ const MySkillsPage = () => {
         <SocialIcons theme="dark" />
         <Navbar />
         <ParticleComponent theme='light' />
+        <ContentWrapper>
+          <Main variants={itemVariants} initial="hidden" animate="show">
+            <Title>
+              <Develope width={40} height={40} />Programming Languages
+            </Title>
+            <h1>Languages</h1>
+            <Separator />
+            <Description>
+              <ul>
+                <ListItem>C</ListItem>
+                <ListItem>C#</ListItem>
+                <ListItem>JavaScript <FontAwesomeIcon icon={faJs} /></ListItem>
+                <ListItem>Python <FontAwesomeIcon icon={faPython} /></ListItem>
+                <ListItem>HTML <FontAwesomeIcon icon={faHtml5} /></ListItem>
+                <ListItem>CSS <FontAwesomeIcon icon={faCss3} /></ListItem>
+              </ul>
+            </Description>
+            <h1>Databases</h1>
+            <Separator />
+            <Description>
+              <ul>
+                <ListItem>MySQL <FontAwesomeIcon icon={faDatabase} /></ListItem>
+                <ListItem>MongoDB</ListItem>
+              </ul>
+            </Description>
+          </Main>
 
-        <Main variants={itemVariants} initial="hidden" animate="show">
-          <Title>
-            <Develope width={40} height={40} />Programming Languages
-          </Title>
-          <h1>Languages</h1>
-          <Separator />
-          <Description>
-            <ul>
-            <ListItem>C </ListItem>
-            <ListItem>C# </ListItem>
-              <ListItem>JavaScript <FontAwesomeIcon icon={faJs} /></ListItem>
-              <ListItem>Python <FontAwesomeIcon icon={faPython} /></ListItem>
-              <ListItem>HTML <FontAwesomeIcon icon={faHtml5} /></ListItem>
-              <ListItem>CSS <FontAwesomeIcon icon={faCss3} /></ListItem>
-              
-            </ul>
-          </Description>
-          <h1>Databases</h1>
-          <Separator />
-          <Description>
-            <ul>
-              <ListItem>MySQL <FontAwesomeIcon icon={faDatabase} /></ListItem>
-              <ListItem>MongoDB </ListItem>
-            </ul>
-          </Description>
-        </Main>
-
-        <Main variants={itemVariants} initial="hidden" animate="show">
-          <Title><Design width={40} height={40} />Libraries & Frameworks</Title>
-          <Separator />
-          <Description>
-            <ul>
-              <ListItem>React.js <FontAwesomeIcon icon={faReact} /></ListItem>
-              <ListItem>Node.js <FontAwesomeIcon icon={faNode} /></ListItem>
-              <ListItem>Git <FontAwesomeIcon icon={faGit} /></ListItem>
-              <ListItem>Unity <FontAwesomeIcon icon={faUnity} /></ListItem>
-              <ListItem>Adobe Photoshop . <h2>Ps</h2></ListItem>
-            </ul>
-          </Description>
-        </Main>
+          <Main variants={itemVariants} initial="hidden" animate="show">
+            <Title><Design width={40} height={40} />Libraries & Frameworks</Title>
+            <Separator />
+            <Description>
+              <ul>
+                <ListItem>React.js <FontAwesomeIcon icon={faReact} /></ListItem>
+                <ListItem>Node.js <FontAwesomeIcon icon={faNode} /></ListItem>
+                <ListItem>Git <FontAwesomeIcon icon={faGit} /></ListItem>
+                <ListItem>Unity <FontAwesomeIcon icon={faUnity} /></ListItem>
+                <ListItem>Adobe Photoshop . <h2>Ps</h2></ListItem>
+              </ul>
+            </Description>
+          </Main>
+        </ContentWrapper>
         <Main variants={itemVariants} initial="hidden" animate="show">
           <Title><Design width={40} height={40} />Other Skills</Title>
           <Separator />
           <Description>
             <ul>
-              <li><ListItem>Teaching and Communication skills (Worked as a physics tutor for A/L students for almost 4 years)</ListItem></li>
-              <li><ListItem>Logical and analytical skills </ListItem></li>
-              
+              <ListItem>Teaching and Communication skills (Worked as a physics tutor for A/L students for almost 4 years)</ListItem>
+              <ListItem>Logical and analytical skills</ListItem>
             </ul>
           </Description>
         </Main>
 
-        <BigTitle text="SKILLS" top="20%" right="15%" />
+        <BigTitle text="SKILLS" top="10%" right="15%" />
       </Box>
     </ThemeProvider>
   );

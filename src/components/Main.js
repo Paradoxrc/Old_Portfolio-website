@@ -70,7 +70,7 @@ const glow = keyframes`
 
 const Center = styled.button`
   position: absolute;
-  top: ${props => props.click ? '81%' : '50%'};
+  top: ${props => props.click ? '84%' : '50%'};
   left: ${props => props.click ? '92%' : '50%'};
   @media (max-width: 768px) {
     left: ${props => props.click ? '50%' : '50%'};
@@ -111,7 +111,7 @@ const DarkDiv = styled.div`
   width: ${props => props.click ? '100%' : '0%'};
   height: ${props => props.click ? '100%' : '0%'};
   z-index: 0;
-  transition: height 0.5s ease, width 1s ease 0.5s;
+  transition: height 0.4s ease, width 0.7s ease 0.4s;
 `;
 
 const Paradox = styled.div`
@@ -135,7 +135,7 @@ const Main = () => {
         
         <Center click={click}>
           <Paradox>
-          <YinYang onClick={() => handleClick()} width={click ? 80 : 200} height={click ? 80 : 200} />
+          <YinYang onClick={() => handleClick()} width={click ? 60 : 200} height={click ? 60 : 200} />
           </Paradox>
           <span><h1><br/>Click Here</h1></span>
           

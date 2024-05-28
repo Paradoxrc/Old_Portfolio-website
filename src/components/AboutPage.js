@@ -7,7 +7,7 @@ import SocialIcons from '../subComponents/SocialIcons';
 
 import ParticleComponent from '../subComponents/ParticleComponent';
 import BigTitle from '../subComponents/BigTitlte';
-import astronaut from '../assets/Images/w.png';
+import astronaut from '../assets/Images/aaadd.png';
 import aaa from '../assets/Images/3a.jpg';
 import boxing from '../assets/Images/boxing.jpg';
 import boxing2 from '../assets/Images/boxing3.jpg';
@@ -50,9 +50,9 @@ const float = keyframes`
 
 const Spaceman = styled.div`
   position: fixed;
-  top: 1%;
-  right: 0%;
-  width: 41vw;
+  top: 5%;
+  right: 10%;
+  width: 30vw;
   animation: ${float} 4s ease infinite;
   img {
     width: 100%;

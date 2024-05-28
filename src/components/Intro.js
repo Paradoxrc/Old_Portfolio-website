@@ -1,7 +1,7 @@
 import React from 'react';
 import styled from 'styled-components';
 import { motion } from 'framer-motion';
-import Me from '../assets/Images/dp.png';
+import Me from '../assets/Images/nobg.png';
 
 const Box = styled(motion.div)`
   position: absolute;
@@ -29,6 +29,7 @@ const Box = styled(motion.div)`
   border-left: 2px solid ${(props) => props.theme.body};
   border-right: 2px solid ${(props) => props.theme.text};
   z-index: 1;
+  padding-top:2rem;
 
   @media (max-width: 768px) {
     flex-direction: column;
@@ -53,6 +54,7 @@ const Box = styled(motion.div)`
     border-top: 2px solid ${(props) => props.theme.body};
     border-bottom: 2px solid ${(props) => props.theme.text};
     padding: 1rem;
+    padding-bottom:13rem;
   }
 `;
 
@@ -64,20 +66,8 @@ const SubBox = styled.div`
   align-items: center;
   flex-direction: column;
 
-  .pic {
-    width: 30vw;
-    height: auto;
-    @media (max-width: 768px) {
-      width: 100%;
-      margin-bottom: 1rem;
-    }
-  }
-
   @media (max-width: 768px) {
     width: 100%;
-    .pic{
-        width:50vw;
-    }
   }
 `;
 
@@ -101,11 +91,20 @@ const Text = styled.div`
   @media (max-width: 768px) {
     color: ${(props) => props.theme.text};
     padding: 1rem;
-    font-size: calc(0.8em + 1vw);
+    font-size: calc(1.2em + 1vw);
 
     & > *:last-child {
-      font-size: calc(0.4rem + 1vw);
+      font-size: calc(0.7rem + 1vw);
     }
+  }
+`;
+
+const ProfilePic = styled.img`
+  width: 27vw;
+  height: auto;
+  @media (max-width: 768px) {
+    width:50vw;
+    margin-bottom: 1rem;
   }
 `;
 
@@ -113,17 +112,11 @@ const Intro = () => {
   return (
     <Box
       initial={{ height: 0 }}
-      animate={{ height: '45vw' }}
-      transition={{ type: 'spring', duration: 2, delay: 1 }}
+      animate={{ height: '38vw' }}
+      transition={{ type: 'spring', duration: 1, delay: 0.5 }}
     >
       <SubBox>
-        <motion.div
-          initial={{ opacity: 0 }}
-          animate={{ opacity: 1 }}
-          transition={{ duration: 1, delay: 2 }}
-        >
-          <img className="pic" src={Me} alt="Profile Pic" />
-        </motion.div>
+        <ProfilePic src={Me} alt="Profile Pic" />
         <Text>
           <h3>Hi, I'm Dinith Edirisinghe.</h3>
           <h6>Full Stack Web Developer | Unity Game Developer | Physics Tutor</h6>

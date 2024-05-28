@@ -11,7 +11,7 @@ const NavbarContainer = styled.nav`
   transform: translateX(-50%);
   display: flex;
   gap: 2rem;
-  z-index: 1;
+  z-index: 10;
 
   @media (max-width: 768px) {
     position: fixed;
@@ -19,7 +19,7 @@ const NavbarContainer = styled.nav`
     left: 1;
     width: 100%;
     height: 110vh;
-    background-color: #2C2E31;
+    background-color: #051429;
     flex-direction: column;
     justify-content: center;
     align-items: center;
@@ -91,7 +91,7 @@ const Navbar = ({ click }) => {
       <NavbarContainer isOpen={isOpen}>
         {isOpen && (
           <ParticleBackground>
-            <ParticleComponent theme="light" />
+            <ParticleComponent theme="dark" />
           </ParticleBackground>
         )}
         <NavItem to="/main" onClick={() => setIsOpen(false)}>Home</NavItem>
