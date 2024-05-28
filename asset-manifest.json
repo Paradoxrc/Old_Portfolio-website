@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/My_portfolio/static/css/main.58462fbc.css",
-    "main.js": "/My_portfolio/static/js/main.b858d65b.js",
+    "main.js": "/My_portfolio/static/js/main.d983d82d.js",
     "static/media/rcsa2.png": "/My_portfolio/static/media/rcsa2.4f221d84e0f4f39ac26c.png",
     "static/media/ecom.png": "/My_portfolio/static/media/ecom.f7b3b0be47fc94cc552f.png",
-    "static/media/dp.png": "/My_portfolio/static/media/dp.a2b4870bfca013cb1dc1.png",
     "static/media/portfolio.png": "/My_portfolio/static/media/portfolio.5c0486df828d0095a236.png",
+    "static/media/nobg.png": "/My_portfolio/static/media/nobg.4b1dcce497a3ad95c566.png",
     "static/media/3a.jpg": "/My_portfolio/static/media/3a.5ae2c2c9b1388763863a.jpg",
     "static/media/bg.png": "/My_portfolio/static/media/bg.790abfbb2467b7e5f8af.png",
-    "static/media/w.png": "/My_portfolio/static/media/w.1c902ffd877269bf72df.png",
+    "static/media/aaadd.png": "/My_portfolio/static/media/aaadd.4ff0b2601d643e9e9ab8.png",
     "static/media/boxing.jpg": "/My_portfolio/static/media/boxing.c157d3971eb9149c123a.jpg",
     "static/media/violin.jpg": "/My_portfolio/static/media/violin.89e2dfecee4aa5efc1df.jpg",
     "static/media/scholar.jpg": "/My_portfolio/static/media/scholar.1e5f6a9d2e8ebe6cf5cb.jpg",
@@ -17,12 +17,11 @@
     "static/media/prize.jpg": "/My_portfolio/static/media/prize.91dacd55b4bf230da982.jpg",
     "static/media/honeycomb.png": "/My_portfolio/static/media/honeycomb.e2c4b8cfa39f41549a8b.png",
     "index.html": "/My_portfolio/index.html",
-    "static/media/John-Cv.pdf": "/My_portfolio/static/media/John-Cv.31d6cfe0d16ae931b73c.pdf",
     "main.58462fbc.css.map": "/My_portfolio/static/css/main.58462fbc.css.map",
-    "main.b858d65b.js.map": "/My_portfolio/static/js/main.b858d65b.js.map"
+    "main.d983d82d.js.map": "/My_portfolio/static/js/main.d983d82d.js.map"
   },
   "entrypoints": [
     "static/css/main.58462fbc.css",
-    "static/js/main.b858d65b.js"
+    "static/js/main.d983d82d.js"
   ]
 }
