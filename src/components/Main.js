@@ -81,6 +81,7 @@ const Center = styled.button`
   outline: none;
   background-color: transparent;
   cursor: pointer;
+  z-index:11;
 
   display: flex;
   flex-direction: column;
