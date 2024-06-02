@@ -78,7 +78,7 @@ export const Blogs = [
     },
      {
         id:10,
-        name:"Happiness",
+        name:"Happiness??",
         tags:["ShoweThoughts"],
         date:"02 June, 2024",
         imgSrc:"https://dinith0.wordpress.com/wp-content/uploads/2024/06/dhpcfh1bs3p6-5nqcbjbm6ojip8q1tdxdlr-0babdc983c71178900e5b543ec66327f-happiness_and_income_fig_3.webp?w=1024",
