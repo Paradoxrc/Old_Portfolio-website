@@ -1,5 +1,6 @@
 // work data
 import ecom from '../assets/Images/ecom.png';
+
 import portfolio from '../assets/Images/portfolio.png';
 
 export const Work = [
@@ -66,6 +67,17 @@ export const Work = [
         
         demo:"https://dinith.netlify.app/",
         github:"https://github.com/Paradoxrc/My_portfolio"
+        
+    },
+    {
+        id:6,
+        name:"FIT MIX Paint Mixer",
+        image: "https://dinith0.wordpress.com/wp-content/uploads/2024/07/whatsapp-image-2024-07-09-at-22.24.57_0527031c.jpg?w=NaN&h=",
+        description:"This is the first year hardware project of the University ",
+        tags:["Arduino","C++","Electronics"],
+        
+        demo:"https://www.youtube.com/watch?v=P6W5qFSs5I4&t=365s",
+        github:"https://github.com/Paradoxrc/Hardware-Project-FIT-MIX-"
         
     },
     
