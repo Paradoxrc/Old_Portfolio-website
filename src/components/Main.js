@@ -21,7 +21,7 @@ const MainContainer = styled.div`
   position: relative;
 
   h2, h3, h4, h5, h6 {
-    font-family: 'Karla', sans-serif;
+    
     font-weight: 500;
     color: #D7E9FF; /* Text color */
   }

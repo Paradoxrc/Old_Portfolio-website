@@ -68,7 +68,6 @@ const Main = styled(motion.div)`
   z-index: 3;
   line-height: 1.5;
   cursor: pointer;
-  font-family: 'Ubuntu Mono', monospace;
   display: flex;
   flex-direction: column;
   margin: 1rem;

@@ -44,7 +44,6 @@ const Title = styled.h3`
   color: inherit;
   padding: 0.5rem 0;
   padding-top: 1rem;
-  font-family: "Karla", sans-serif;
   font-weight: 700;
   border-bottom: 1px solid ${(props) => props.theme.text};
 

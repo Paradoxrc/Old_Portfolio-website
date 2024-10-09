@@ -92,8 +92,6 @@ const Section = styled(motion.div)`
   align-items: flex-start;
   font-size: calc(0.8rem + 1vw);
   backdrop-filter: blur(4px);
-  font-family: 'Ubuntu Mono', monospace;
-  font-style: italic;
   transition: background-color 0.3s ease, transform 0.3s ease;
 
   &:hover {
@@ -122,8 +120,6 @@ const Button = styled.button`
   cursor: pointer;
   font-size: calc(0.5rem + 0.5vw);
   margin-top: 1rem;
-  font-family: 'Ubuntu Mono', monospace;
-  font-style: italic;
   transition: background-color 0.3s ease, color 0.3s ease, border 0.3s ease;
 
   &:hover {
@@ -150,7 +146,6 @@ const itemVariants = {
 };
 
 const Heading = styled.h1`
-  font-family: 'Roboto', sans-serif;
   font-size: calc(1.2rem + 1vw);
   color: #5FA5F7;
   margin-bottom: 1rem;
@@ -167,7 +162,7 @@ const Heading = styled.h1`
 `;
 
 const SubHeading = styled.h2`
-  font-family: 'Roboto', sans-serif;
+
   font-size: calc(1rem + 1vw);
   color: #5FF776;
   display: flex;
@@ -187,7 +182,7 @@ const SubHeading = styled.h2`
 `;
 
 const Text = styled.p`
-  font-family: 'Roboto', sans-serif;
+
   font-size: calc(1.2rem + 0.5vw);
   color: #FFFFFF;
 `;
@@ -237,7 +232,7 @@ const TimelineItem = styled.div`
   }
 
   span {
-    font-family: 'Roboto', sans-serif;
+
     color: #FFFFFF;
     font-size: calc(0.8rem + 0.5vw);
   }

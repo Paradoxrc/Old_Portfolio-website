@@ -50,8 +50,7 @@ const Image = styled.div`
 `;
 
 const Description = styled.h2`
-  font-size: calc(0.8em + 0.3vw);
-  font-family: 'Karla', sans-serif;
+  font-size: calc(0.7em + 0.3vw);
   font-weight: 500;
 `;
 
